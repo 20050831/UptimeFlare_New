@@ -52,7 +52,7 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
       headers: {
         'User-Agent': 'Uptimeflare 114514',
-       // Authorization: 'Bearer YOUR_TOKEN_HERE',
+        Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
     },
     {
@@ -66,7 +66,7 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
       headers: {
         'User-Agent': 'Uptimeflare 114514',
-       // Authorization: 'Bearer YOUR_TOKEN_HERE',
+        Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
     },
     {
@@ -80,7 +80,7 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
       headers: {
         'User-Agent': 'Uptimeflare 114514',
-       // Authorization: 'Bearer YOUR_TOKEN_HERE',
+        Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
       {
       id: 'lob_net',
@@ -93,7 +93,7 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
       headers: {
         'User-Agent': 'Uptimeflare 114514',
-       // Authorization: 'Bearer YOUR_TOKEN_HERE',
+        Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
     },
     {
@@ -107,7 +107,7 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
       headers: {
         'User-Agent': 'Uptimeflare 114514',
-       // Authorization: 'Bearer YOUR_TOKEN_HERE',
+        Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
       {
       id: 'lob_music',
@@ -120,7 +120,7 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
       headers: {
         'User-Agent': 'Uptimeflare 114514',
-       // Authorization: 'Bearer YOUR_TOKEN_HERE',
+        Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
       {
       id: 'lob_img_1',
@@ -133,7 +133,7 @@ const workerConfig: WorkerConfig = {
       timeout: 10000,
       headers: {
         'User-Agent': 'Uptimeflare 114514',
-       // Authorization: 'Bearer YOUR_TOKEN_HERE',
+        Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
     },
       // [OPTIONAL] body to be sent (require POST/PUT/PATCH method)
