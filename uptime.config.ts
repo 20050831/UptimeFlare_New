@@ -73,12 +73,12 @@ const workerConfig: WorkerConfig = {
       {
       id: 'Lobster_ai',
       name: 'Lobster AI',
-      method: 'POST',
+      method: 'GET',
       target: 'https://ai.lobsterstudio.nl/',
       tooltip: 'Lobster AI',
       statusPageLink: 'https://ai.lobsterstudio.nl/',
       expectedCodes: [200],
-      timeout: 10000,
+      timeout: 100000,
       headers: {
         'User-Agent': 'Uptimeflare 114514',
         Authorization: 'Bearer YOUR_TOKEN_HERE',
@@ -143,7 +143,7 @@ const workerConfig: WorkerConfig = {
       {
       id: 'ai_api_status',
       name: 'King API 模型检查',
-      method: 'POST',
+      method: 'GET',
       target: 'http://206.237.3.50:1145/embed.html',
       tooltip: '龙虾图床',
       statusPageLink: 'https://api.longx.de/',
