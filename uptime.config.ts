@@ -139,6 +139,20 @@ const workerConfig: WorkerConfig = {
         'User-Agent': 'Uptimeflare 114514',
         Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
+    },
+      {
+      id: 'ai_api_status',
+      name: 'King API 模型检查',
+      method: 'GET',
+      target: 'http://206.237.3.50:1145/embed.html',
+      tooltip: '龙虾图床',
+      statusPageLink: 'https://api.longx.de/',
+      expectedCodes: [200],
+      timeout: 10000,
+      headers: {
+        'User-Agent': 'Uptimeflare 114514',
+        Authorization: 'Bearer YOUR_TOKEN_HERE',
+      },
     
     },
       // [OPTIONAL] body to be sent (require POST/PUT/PATCH method)
@@ -155,7 +169,7 @@ const workerConfig: WorkerConfig = {
       // checkProxyFallback: true,
    // },
     // Example TCP Monitor
-    {
+   /* {
       id: 'test_tcp_monitor',
       name: 'Example TCP Monitor',
       // `method` should be `TCP_PING` for tcp monitors
@@ -166,7 +180,7 @@ const workerConfig: WorkerConfig = {
       statusPageLink: 'https://example.com',
       timeout: 5000,
     },
-  ], 
+  ], */
   // [Optional] Notification settings
   notification: {
     // [Optional] Notification webhook settings, if not specified, no notification will be sent
