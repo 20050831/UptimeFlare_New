@@ -41,7 +41,7 @@ const workerConfig: WorkerConfig = {
         'User-Agent': 'Uptimeflare',
         Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
-      {
+    {
       id: 'weblog',
       name: 'Lobster Blog',
       method: 'GET',
@@ -54,7 +54,7 @@ const workerConfig: WorkerConfig = {
         'User-Agent': 'Uptimeflare 114514',
         Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
-      {
+    {
       id: 'Forum_1',
       name: '龙虾论坛国际站点',
       method: 'GET',
