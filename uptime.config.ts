@@ -29,7 +29,7 @@ const workerConfig: WorkerConfig = {
       // `target` is a valid URL
       target: 'https://www.lobsterstudio.one/',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: 'This is a tooltip for this monitor',
+      tooltip: 'Lobster Forum Status',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
       statusPageLink: 'https://www.lobsterstudio.one/',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
@@ -41,6 +41,20 @@ const workerConfig: WorkerConfig = {
         'User-Agent': 'Uptimeflare',
         Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
+      {
+      id: 'weblog',
+      name: 'Lobster Blog',
+      method: 'POST',
+      target: 'https://longxiastudio.com/',
+      tooltip: 'My blog',
+      statusPageLink: 'https://longxiastudio.com/',
+      expectedCodes: [200],
+      timeout: 10000,
+      headers: {
+        'User-Agent': 'Uptimeflare 114514',
+       // Authorization: 'Bearer YOUR_TOKEN_HERE',
+      },
+    },
       // [OPTIONAL] body to be sent (require POST/PUT/PATCH method)
       // body: 'Hello, world!',
       // [OPTIONAL] if specified, the response must contains the keyword to be considered as operational.
@@ -54,7 +68,7 @@ const workerConfig: WorkerConfig = {
       // [OPTIONAL] if true, the check will fallback to local if the specified proxy is down
       // checkProxyFallback: true,
     },
-    // Example TCP Monitor
+ /*   // Example TCP Monitor
     {
       id: 'test_tcp_monitor',
       name: 'Example TCP Monitor',
@@ -66,7 +80,7 @@ const workerConfig: WorkerConfig = {
       statusPageLink: 'https://example.com',
       timeout: 5000,
     },
-  ],
+  ], */
   // [Optional] Notification settings
   notification: {
     // [Optional] Notification webhook settings, if not specified, no notification will be sent
@@ -123,7 +137,7 @@ const maintenances: MaintenanceConfig[] = [
     start: '2020-01-01T00:00:00+08:00',
     // [Optional] end time of the maintenance, in UNIX timestamp or ISO 8601 format
     // if not specified, the maintenance will be considered as on-going
-    end: '2050-01-01T00:00:00+08:00',
+    end: '2026-01-01T00:00:00+08:00',
     // [Optional] color of the maintenance alert at status page, default to "yellow"
     color: 'blue',
   },
