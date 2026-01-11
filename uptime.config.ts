@@ -25,7 +25,7 @@ const workerConfig: WorkerConfig = {
       // `name` is used at status page and callback message
       name: '龙虾论坛国内站点',
       // `method` should be a valid HTTP Method
-      method: 'GET',
+      method: 'POST',
       // `target` is a valid URL
       target: 'https://www.lobsterstudio.one/',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
@@ -59,7 +59,7 @@ const workerConfig: WorkerConfig = {
     {
       id: 'Forum_1',
       name: '龙虾论坛国际站点',
-      method: 'GET',
+      method: 'POST',
       target: 'https://www.longxiayuanma.top/',
       tooltip: 'Lobster Forum 1',
       statusPageLink: 'https://www.longxiayuanma.top/',
@@ -73,7 +73,7 @@ const workerConfig: WorkerConfig = {
       {
       id: 'Lobster_ai',
       name: 'Lobster AI',
-      method: 'GET',
+      method: 'POST',
       target: 'https://ai.lobsterstudio.nl/',
       tooltip: 'Lobster AI',
       statusPageLink: 'https://ai.lobsterstudio.nl/',
@@ -143,7 +143,7 @@ const workerConfig: WorkerConfig = {
       {
       id: 'ai_api_status',
       name: 'King API 模型检查',
-      method: 'GET',
+      method: 'POST',
       target: 'http://206.237.3.50:1145/embed.html',
       tooltip: '龙虾图床',
       statusPageLink: 'https://api.longx.de/',
