@@ -44,7 +44,7 @@ const workerConfig: WorkerConfig = {
       {
       id: 'weblog',
       name: 'Lobster Blog',
-      method: 'POST',
+      method: 'GET',
       target: 'https://longxiastudio.com/',
       tooltip: 'My blog',
       statusPageLink: 'https://longxiastudio.com/',
@@ -54,11 +54,10 @@ const workerConfig: WorkerConfig = {
         'User-Agent': 'Uptimeflare 114514',
         Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
-    },
-    {
+      {
       id: 'Forum_1',
       name: '龙虾论坛国际站点',
-      method: 'POST',
+      method: 'GET',
       target: 'https://www.longxiayuanma.top/',
       tooltip: 'Lobster Forum 1',
       statusPageLink: 'https://www.longxiayuanma.top/',
@@ -68,11 +67,10 @@ const workerConfig: WorkerConfig = {
         'User-Agent': 'Uptimeflare 114514',
         Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
-    },
-    {
+      {
       id: 'Lobster_ai',
       name: 'Lobster AI',
-      method: 'POST',
+      method: 'GET',
       target: 'https://ai.lobsterstudio.nl/',
       tooltip: 'Lobster AI',
       statusPageLink: 'https://ai.lobsterstudio.nl/',
@@ -85,7 +83,7 @@ const workerConfig: WorkerConfig = {
       {
       id: 'lob_net',
       name: 'Lobster Netdisk',
-      method: 'POST',
+      method: 'GET',
       target: 'https://pan.longxiastudio.com/',
       tooltip: 'Lobster Netdisk',
       statusPageLink: 'https://pan.longxiastudio.com/',
@@ -95,11 +93,10 @@ const workerConfig: WorkerConfig = {
         'User-Agent': 'Uptimeflare 114514',
         Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
-    },
-    {
+      {
       id: 'King_api',
       name: 'King Api',
-      method: 'POST',
+      method: 'GET',
       target: 'https://api.longx.de/',
       tooltip: 'King Api',
       statusPageLink: 'https://api.longx.de/',
@@ -112,7 +109,7 @@ const workerConfig: WorkerConfig = {
       {
       id: 'lob_music',
       name: '龙虾音乐平台',
-      method: 'POST',
+      method: 'GET',
       target: 'https://longxiatongxun.top/',
       tooltip: '龙虾音乐平台',
       statusPageLink: 'https://longxiatongxun.top/',
@@ -125,7 +122,7 @@ const workerConfig: WorkerConfig = {
       {
       id: 'lob_img_1',
       name: '龙虾图床',
-      method: 'POST',
+      method: 'GET',
       target: 'https://img.lobsterstudio.nl/',
       tooltip: '龙虾图床',
       statusPageLink: 'https://img.lobsterstudio.nl/',
@@ -149,7 +146,7 @@ const workerConfig: WorkerConfig = {
       // [OPTIONAL] if true, the check will fallback to local if the specified proxy is down
       // checkProxyFallback: true,
     },
- /*   // Example TCP Monitor
+    // Example TCP Monitor
     {
       id: 'test_tcp_monitor',
       name: 'Example TCP Monitor',
@@ -161,7 +158,7 @@ const workerConfig: WorkerConfig = {
       statusPageLink: 'https://example.com',
       timeout: 5000,
     },
-  ], */
+  ], 
   // [Optional] Notification settings
   notification: {
     // [Optional] Notification webhook settings, if not specified, no notification will be sent
