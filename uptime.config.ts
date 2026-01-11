@@ -179,7 +179,7 @@ const workerConfig: WorkerConfig = {
       tooltip: 'My production server SSH',
       statusPageLink: 'https://example.com',
       timeout: 5000,
-    },
+    }, */
   ], 
   // [Optional] Notification settings
   notification: {
@@ -218,7 +218,6 @@ const workerConfig: WorkerConfig = {
   },
 }
 
-*/
 // You can define multiple maintenances here
 // During maintenance, an alert will be shown at status page
 // Also, related downtime notifications will be skipped (if any)
