@@ -180,7 +180,7 @@ const workerConfig: WorkerConfig = {
       statusPageLink: 'https://example.com',
       timeout: 5000,
     },
-  ], */
+  ], 
   // [Optional] Notification settings
   notification: {
     // [Optional] Notification webhook settings, if not specified, no notification will be sent
@@ -218,6 +218,7 @@ const workerConfig: WorkerConfig = {
   },
 }
 
+*/
 // You can define multiple maintenances here
 // During maintenance, an alert will be shown at status page
 // Also, related downtime notifications will be skipped (if any)
