@@ -139,20 +139,6 @@ const workerConfig: WorkerConfig = {
         'User-Agent': 'Uptimeflare 114514',
         Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
-    },
-      {
-      id: 'ai_api_status',
-      name: 'King API 模型检查',
-      method: 'GET',
-      target: 'http://206.237.3.50:1145/embed.html',
-      tooltip: '龙虾图床',
-      statusPageLink: 'https://api.longx.de/',
-      expectedCodes: [200],
-      timeout: 10000,
-      headers: {
-        'User-Agent': 'Uptimeflare 114514',
-        Authorization: 'Bearer YOUR_TOKEN_HERE',
-      },
     
     },
       // [OPTIONAL] body to be sent (require POST/PUT/PATCH method)
