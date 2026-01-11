@@ -69,6 +69,7 @@ const workerConfig: WorkerConfig = {
         'User-Agent': 'Uptimeflare 114514',
         Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
+    },
       {
       id: 'Lobster_ai',
       name: 'Lobster AI',
@@ -82,6 +83,7 @@ const workerConfig: WorkerConfig = {
         'User-Agent': 'Uptimeflare 114514',
         Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
+    },
       {
       id: 'lob_net',
       name: 'Lobster Netdisk',
@@ -95,6 +97,7 @@ const workerConfig: WorkerConfig = {
         'User-Agent': 'Uptimeflare 114514',
         Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
+    },
       {
       id: 'King_api',
       name: 'King Api',
@@ -108,6 +111,7 @@ const workerConfig: WorkerConfig = {
         'User-Agent': 'Uptimeflare 114514',
         Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
+    },
       {
       id: 'lob_music',
       name: '龙虾音乐平台',
@@ -121,6 +125,7 @@ const workerConfig: WorkerConfig = {
         'User-Agent': 'Uptimeflare 114514',
         Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
+    },
       {
       id: 'lob_img_1',
       name: '龙虾图床',
@@ -134,6 +139,7 @@ const workerConfig: WorkerConfig = {
         'User-Agent': 'Uptimeflare 114514',
         Authorization: 'Bearer YOUR_TOKEN_HERE',
       },
+    
     },
       // [OPTIONAL] body to be sent (require POST/PUT/PATCH method)
       // body: 'Hello, world!',
